@@ -21,7 +21,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn notebook
 jupyter notebook
 ```
 
-Open either notebook from your downloaded copy of this repository. Both notebooks currently use a machine-specific Windows path to load `train.csv`. Before running, change that path in your local copy to `pd.read_csv("train.csv")` and keep the notebook and CSV in the same folder. Run cells in order.
+Open either notebook from your downloaded copy of this repository. Both notebooks load `train.csv` using a relative path. Keep the notebook and CSV in the same folder and run cells in order.
 
 ## Notes
 
